@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 0.16rem; }
+
+img {
+  width: 100%; }
+
+a {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+#box {
+  width: 100%; }
+
+.head {
+  width: 100%;
+  border-bottom: 1px solid #f4f4f4; }
+  .head ul {
+    padding: 0.08rem 0.09rem;
+    display: flex;
+    justify-content: space-between; }
+    .head ul li:nth-child(1) {
+      width: 35%; }
+    .head ul li:nth-child(2) {
+      display: flex;
+      align-items: center;
+      font-size: 0.18rem; }
+    .head ul li:nth-child(3) {
+      display: flex;
+      align-items: center; }
+      .head ul li:nth-child(3) div {
+        padding: 0 0.06rem; }
+        .head ul li:nth-child(3) div span {
+          font-size: 0.225rem;
+          color: #999; }
+        .head ul li:nth-child(3) div p {
+          font-size: 0.11rem;
+          color: #999; }
+
+.nav {
+  width: 100%;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  border-bottom: 1px solid #f4f4f4; }
+  .nav ul {
+    display: flex;
+    justify-content: center; }
+    .nav ul .xian {
+      color: #f4f4f4; }
+    .nav ul li {
+      padding: 0 0.1rem;
+      font-size: 0.18rem; }
+      .nav ul li span {
+        font-size: 0.14rem;
+        color: #999;
+        margin-left: 0.1rem; }
+      .nav ul li .icon-search {
+        color: #3fcb97;
+        font-size: 0.18rem; }
+
+.tuwen {
+  width: 100%; }
+  .tuwen ul {
+    display: flex;
+    padding: 0.1rem;
+    border-bottom: 1px solid #f4f4f4; }
+    .tuwen ul li:nth-child(1) {
+      width: 1.4rem;
+      height: 0.9525rem; }
+    .tuwen ul li:nth-child(2) {
+      padding-left: 0.08rem; }
+      .tuwen ul li:nth-child(2) p:nth-child(1) {
+        font-size: 0.18rem; }
+      .tuwen ul li:nth-child(2) .eee p {
+        margin: 0.14rem 0;
+        width: 0.7rem;
+        font-size: 0.14rem;
+        background: #38C893;
+        text-align: center;
+        border-radius: 0.05rem;
+        color: #fff;
+        letter-spacing: 0.03rem; }
+      .tuwen ul li:nth-child(2) .eee span {
+        font-size: 0.24rem;
+        color: #38C993;
+        margin-left: 0.1rem;
+        display: flex;
+        align-items: center; }
+      .tuwen ul li:nth-child(2) p:nth-child(2) {
+        margin: 0.14rem 0;
+        width: 0.7rem;
+        font-size: 0.14rem;
+        background: #38C893;
+        text-align: center;
+        border-radius: 0.05rem;
+        color: #fff;
+        letter-spacing: 0.03rem; }
+      .tuwen ul li:nth-child(2) span {
+        color: #a8a8a8; }
+  .tuwen .shangxia {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0.1rem 0; }
+    .tuwen .shangxia ul {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+      .tuwen .shangxia ul li {
+        text-align: center;
+        height: 0.41rem;
+        width: 33.33%;
+        color: #fff;
+        background: #39c893;
+        line-height: 0.41rem; }
+      .tuwen .shangxia ul li:nth-child(2) {
+        background: #fff;
+        color: #000; }
+
+.foot {
+  width: 100%; }
+  .foot .foot_dianhua {
+    padding: 0.16rem 0;
+    display: flex;
+    justify-content: center; }
+    .foot .foot_dianhua .iconfont {
+      font-size: 0.16rem;
+      color: #3CC793;
+      margin-top: 0.07rem;
+      display: block; }
+    .foot .foot_dianhua span:nth-child(2) {
+      font-size: 0.14rem;
+      color: #333;
+      display: block;
+      display: flex;
+      align-items: center; }
+  .foot .foot_chuping {
+    padding-bottom: 0.16rem; }
+    .foot .foot_chuping ul {
+      display: flex;
+      justify-content: space-around; }
+      .foot .foot_chuping ul li:nth-child(1) {
+        color: #3CC793; }
+  .foot .foot_xiaxie {
+    padding-bottom: 0.16rem;
+    text-align: center; }
+
+.guanggao {
+  width: 100%;
+  height: 0.53rem;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  bottom: 0rem; }
+  .guanggao .anniu {
+    width: 1.8rem;
+    height: 0.28rem;
+    background: #FEB605;
+    font-size: 0.14rem;
+    color: #fff;
+    line-height: 0.25rem;
+    border-radius: 1rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-right: 0.2rem; }
+
+/*# sourceMappingURL=item10.css.map */

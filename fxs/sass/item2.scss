@@ -1,0 +1,288 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0.16rem;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+#box{
+    width: 100%;
+}
+.head{
+    width: 100%;
+    background: #39c893;
+    display: flex;
+    padding: 0.03rem 0 0.03rem 0.1rem;
+    .head_yi{
+        width: 20%;
+        display: flex;
+        align-items: center;
+    }
+    .head_er{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        img{
+            width: 60%;
+            padding-bottom: 0.1rem;
+        }
+        div:nth-child(2){
+            text-align: center;
+            border: 1px solid #2eb383;
+            background: #2eb383;
+            font-size: 0.14rem;
+            border-radius: 1rem;
+            color: #fff;
+            span{
+                color: #edd614;
+            }
+        }
+    }
+    .head_san{
+        span{
+            font-size: 0.3rem;
+            color: #202020;
+        }
+    }
+}
+.inp{
+    width: 100%;
+    padding-top: 0.02rem;
+    padding-bottom: 0.1rem;
+    div{
+        width: 94%;
+        margin: 0 auto;
+        border: 2px solid #39c893;
+        input{
+            width: 80%;
+            border:none;
+            padding: 0.1rem 0;
+        }
+        button{
+            width: 20%;
+            border: none;
+            background: #39C893;
+            padding: 0.1rem 0;
+        }
+    }
+}
+.nav{
+    width: 96%;
+    margin: 0 auto;
+    .nav_zi{
+        border-bottom: 2px solid #efefef;
+        ul{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            li{
+                text-align: center;
+                font-size: 0.14rem;
+                color: #000;
+                padding: 0.1rem 0;
+                width: 33.33%;
+            }
+            li:nth-child(1){
+                border-bottom: 2px solid #39c893;
+            }
+        }
+    }
+    .nav_na{
+        width: 100%;
+        ul{
+            display: flex;
+            justify-content: space-around;
+            padding-top: 0.18rem;
+            li{
+                height: 0.525rem;
+                width: 0.525rem;
+                border: 2px solid #39c893;
+                border-radius: 50%;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                span{
+                    display: flex;
+                    align-items: center;
+                    color: #39C893;
+                    font-size: 0.25rem;
+                }
+            }
+        }
+    }
+    .nav_nazi{
+        width: 100%;
+        ul{
+            padding-top: 0.16rem;
+            display: flex;
+            justify-content: space-around;
+            li{
+                color: #333;
+            }
+        }
+    }
+    .nav_liucheng{
+        width: 100%;
+        padding: 0.1rem 0;
+        div{
+            width: 96%;
+            height: 0.35rem;
+            margin: 0 auto;
+            text-align: center;
+            line-height: 0.35rem;
+            color: #45cc9a;
+            border: 1px solid #45cc9a;
+            border-radius: 0.08rem;
+        }
+    }
+}
+.tuijian{
+    width: 100%;
+    .ziti{
+        width: 95%;
+        margin: 0 auto;
+        ul{
+            display: flex;
+            padding: 0.15rem 0;
+            li{
+                padding: 0 0.04rem;
+            }
+            li:nth-child(1){
+                
+            }
+            li:nth-child(2){
+                p{
+                    font-size: 0.17rem;
+                    color: #000;
+                }
+            }
+        }
+    }
+    .tuijian_tuwen{
+        width: 95%;
+        margin: 0 auto;
+        ul{
+            li{
+                display: flex;
+                border-bottom: 1px solid #f4f4f4;
+                padding: 0.155rem 0;
+                div:nth-child(1){
+                    img{
+                        width: 0.85rem;
+                        height:0.725rem;
+                    }
+                }
+                div:nth-child(2){
+                    padding-left: 0.1rem;
+                    p{
+                        font-size: 0.18rem;
+                        color: #000;
+                    }
+                    span{
+                        font-size: 0.14rem;
+                        color: #999;
+                    }
+                }
+            }
+        }
+    }
+    .nav_liucheng{
+        width: 100%;
+        padding: 0.1rem 0;
+        div{
+            width: 96%;
+            height: 0.35rem;
+            margin: 0 auto;
+            text-align: center;
+            line-height: 0.35rem;
+            color: #45cc9a;
+            border: 1px solid #f4f4f4;
+            border-radius: 0.08rem;
+        }
+    }
+}
+.fangxiansheng{
+    width: 95%;
+    margin: 0 auto;
+    p{
+        padding: 0.18rem 0;
+        text-indent: 2em;
+        font-size: 0.14rem;
+        color: #333;
+        line-height: 0.26rem;
+    }
+}
+.foot{
+    width: 100%;
+    .foot_dianhua{
+        padding: 0.16rem 0;
+        display: flex;
+        justify-content: center;
+        .iconfont{
+            font-size: 0.16rem;
+            color: #3CC793;
+            margin-top: 0.07rem;
+            display: block;
+        }
+        span:nth-child(2){
+            font-size: 0.14rem;
+            color: #333;
+            display: block;
+            display: flex;
+            align-items: center;
+        }
+    }
+    .foot_chuping{
+        padding-bottom: 0.16rem;
+        ul{
+            display: flex;
+            justify-content: space-around;
+            li:nth-child(1){
+                color: #3CC793;
+            }
+        }
+    }
+    .foot_xiaxie{
+        padding-bottom: 0.16rem;
+        text-align: center;
+    }
+}
+.guanggao{
+    width: 100%;
+    height: 0.53rem;
+    background: rgba(0,0,0,0.8);
+    position: fixed;
+    bottom: 0.2rem;
+    .foot_yi{
+        display: flex;
+        .baojia{
+        display: flex;
+        align-items: center;
+        img{
+            width: 80%;
+        }
+    }
+    .anniu{
+        width: 1.8rem;
+        height: 0.28rem;
+        background: #FEB605;
+        font-size: 0.14rem;
+        color: #fff;
+        line-height: 0.25rem;
+        border-radius: 1rem;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        margin-right:0.2rem ;
+        }
+    }
+}

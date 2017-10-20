@@ -1,0 +1,467 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 0.16rem;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#box {
+    width: 100%;
+}
+
+.head {
+    width: 100%;
+    ul {
+        padding: 0.08rem 0.09rem;
+        display: flex;
+        justify-content: space-between;
+        li:nth-child(1) {
+            width: 35%;
+        }
+        li:nth-child(2) {
+            display: flex;
+            align-items: center;
+            font-size: 0.18rem;
+        }
+        li:nth-child(3) {
+            display: flex;
+            align-items: center;
+            div {
+                padding: 0 0.06rem;
+                span {
+                    font-size: 0.225rem;
+                    color: #999;
+                }
+                p {
+                    font-size: 0.11rem;
+                    color: #999;
+                }
+            }
+        }
+    }
+}
+
+.xiudai {
+    width: 100%;
+    .baojia_yi {
+        text-align: center;
+        font-size: 0.18rem;
+        padding: 0.18rem 0;
+    }
+    .baojia_er {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        hr {
+            height: 0;
+            color: #d7d7d7;
+            display: block;
+            width: 50%;
+        }
+        img {
+            width: 20%;
+            padding: 0 0.1rem;
+        }
+    }
+    .inp {
+        width: 80%;
+        margin: 0 auto;
+        div {
+            width: 2.84rem;
+            height: 0.35rem;
+            border: 1px solid #eee;
+            line-height: 0.35rem;
+            font-size: 0.14rem;
+            color: #cacaca;
+            padding-left: 0.1rem;
+            border-radius: 0.025rem;
+        }
+        div:nth-child(2) {
+            margin: 0.125rem 0;
+        }
+        div:nth-child(3) {
+            margin: 0.125rem 0;
+        }
+        div:nth-child(4) {
+            border: none;
+            background: #FEB605;
+            text-align: center;
+            color: #fff;
+        }
+    }
+}
+
+.daikuan {
+    width: 100%;
+    .baojia_si {
+        width: 95%;
+        margin: 0.18rem auto;
+        border: 1px dashed #39c894;
+        position: relative;
+        p {
+            text-align: center;
+            padding: 0.1rem 0;
+        }
+        p:nth-child(1) {
+            position: absolute;
+            padding: 0 0.1rem;
+            top: -0.1rem;
+            left: 1.1rem;
+            background: #fff;
+        }
+        p:nth-child(2) {
+            margin-top: 0.1rem;
+            color: #8c8c8c;
+            text-indent: 2em;
+            font-size: 0.14rem;
+            span {
+                color: #39C893;
+            }
+        }
+    }
+}
+
+.liucheng {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    padding: 0.2rem 0;
+    div {
+        width: 33%;
+        padding: 0.1rem;
+        border: 1px solid #39c893;
+        margin: 0 0.06rem;
+        ul {
+            width: 95%;
+            display: flex;
+            justify-content: center;
+            li {
+                text-align: center;
+                .dd {
+                    height: 0.525rem;
+                    width: 0.525rem;
+                    border: 2px solid #39c893;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 0.13rem;
+                }
+                span {
+                    font-size: 0.28rem;
+                    color: #39c893;
+                }
+                p:nth-child(3) {
+                    font-size: 0.14rem;
+                    color: #666;
+                }
+            }
+        }
+    }
+}
+.tiaojiao{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    .w1,.w2{
+        border-bottom: 1px solid;
+    }
+    .w1,.w3{
+        border-right: 1px solid #666;
+    }
+    .w{
+        width: 50%;
+        text-align: center;
+        padding: 0.1rem 0;
+        div{
+            width: 0.5rem;
+            height: 0.5rem;
+            border-radius: 50%;
+//          border: 2px solid #39C893;
+            margin: 0 auto;
+            text-align: center;
+            line-height: 0.5rem;
+            background: #38C893;
+            span{
+                font-size: 0.28rem;
+                color: #fff;
+            }
+        }
+        p{
+            font-size: 0.14rem;
+            padding: 0.06rem 0;
+        }
+    }
+}
+.dingwei{
+  width: 100%;
+  padding-top: 0.2rem;
+  background: #F4F4F4;
+  .div_img2{
+    width: 95%;
+    margin: 0 auto;
+    img{
+      width: 100%;
+    }
+  }
+  .section_div1{
+    margin-top: -0.3rem;
+    padding: 0.15rem 0;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    position: relative;
+    .img1{
+      position: absolute;
+      left: 0;
+      top: 0.05rem;
+    }
+    .imgs1{
+      background: url(../../git/fxswangz/fxsss/images/切图/loans/loans2.png) no-repeat;
+      background-size:100% ;
+      text-align: center;
+      height: 0.5rem;
+      position: absolute;
+      left: 22%;
+      top: 1rem;
+      width: 60%;
+      .p1{
+        font-size: 0.18rem;
+        color: white;
+      }
+      .p2{
+        font-size: 0.12rem;
+        color: white;
+      }
+    }
+    .imgs2{
+      background: url(../../git/fxswangz/fxsss/images/切图/loans/loans2.png) no-repeat;
+      background-size:100% ;
+      text-align: center;
+      height: 0.5rem;
+      line-height: 0.5rem;
+      position: absolute;
+      left: 22%;
+      top: 3.2rem;
+      width: 60%;
+      .p1{
+        font-size: 0.18rem;
+        color: white;
+      }
+    }
+    .left_ul{
+      padding-top: 1.5rem;
+      width: 50%;
+      border-right:5px solid #38ca95;
+      .loan_logo{
+        margin-bottom: 0.5rem;
+        width: 100%;
+        text-align: right;
+        img{
+          width: 85%;
+        }
+        .p1{
+          font-size: 0.14rem;
+          color: #999;
+          span{
+            font-size: 0.14rem;
+            color: #38CA94;
+          }
+        }
+        .p2{
+          font-size: 0.14rem;
+          color: #999;
+          span{
+            font-size: 0.28rem;
+            color: #000;
+          }
+        }
+      }
+      .loan_li{
+        width: 95%;
+        padding: 0.1rem 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .navBack_zi{
+          text-align: center;
+          line-height: 0.4rem;
+          width: 0.4rem;
+          height: 0.4rem;
+          border: 1px dashed #39c894;
+          border-radius: 50%;
+          span{
+            font-size: 0.18rem;
+            color: #39c894;
+          }
+        }
+        .zi{
+          width: 65%;
+          .p1{
+            font-size: 0.14rem;
+            color: #39c894;
+          }
+          .p2{
+            font-size: 0.14rem;
+            color: #999;
+          }
+        }
+      }
+    }
+    .right_ul{
+      padding-top: 1.5rem;
+      width: 50%;
+      border-left:5px solid #38ca94;
+      .loan_li2{
+        width: 100%;
+        padding: 0.1rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .navBack_zi{
+          text-align: center;
+          line-height: 0.4rem;
+          width: 0.4rem;
+          height: 0.4rem;
+          border: 1px dashed #39c894;
+          border-radius: 50%;
+          span{
+            font-size: 0.29rem;
+            color: #39c894;
+          }
+        }
+        .zi{
+          width: 65%;
+          .p1{
+            font-size: 0.12rem;
+            color: #000;
+          }
+          .p2{
+            font-size: 0.12rem;
+            color: #999;
+            span{
+              color: #39c894;
+            }
+          }
+        }
+      }
+      .li_two2{
+        margin-bottom: 0.4rem;
+      }
+      .loan_li3{
+        width: 90%;
+        margin: 0 auto;
+        .tit{
+          display: flex;
+          align-items: center;
+          p{
+            font-size: 0.14rem;
+            margin-left: 0.1rem;
+          }
+
+
+
+
+          .navBack_zi{
+            text-align: center;
+            line-height: 0.4rem;
+            width: 0.4rem;
+            height: 0.4rem;
+            border: 2px dashed #39c894;
+            
+            border-radius: 50%;
+            span{
+              font-size: 0.29rem;
+              color: #39c894;
+            }
+          }
+        }
+        .zi{
+          width: 65%;
+          .p2{
+            font-size: 0.14rem;
+            color: #999;
+            line-height: 0.26rem;
+          }
+        }
+      }
+      .li_four2{
+        margin-top: 0.4rem;
+      }
+    }
+  }
+}
+.fangxiansheng{
+    width: 95%;
+    margin: 0 auto;
+    p{
+        padding: 0.18rem 0;
+        text-indent: 2em;
+        font-size: 0.14rem;
+        color: #333;
+        line-height: 0.26rem;
+    }
+}
+.foot{
+    width: 100%;
+    .foot_dianhua{
+        padding: 0.16rem 0;
+        display: flex;
+        justify-content: center;
+        .iconfont{
+            font-size: 0.16rem;
+            color: #3CC793;
+            margin-top: 0.07rem;
+            display: block;
+        }
+        span:nth-child(2){
+            font-size: 0.14rem;
+            color: #333;
+            display: block;
+            display: flex;
+            align-items: center;
+        }
+    }
+    .foot_chuping{
+        padding-bottom: 0.16rem;
+        ul{
+            display: flex;
+            justify-content: space-around;
+            li:nth-child(1){
+                color: #3CC793;
+            }
+        }
+    }
+    .foot_xiaxie{
+        padding-bottom: 0.16rem;
+        text-align: center;
+    }
+}
+.guanggao{
+    width: 100%;
+//  height: 0.53rem;
+    background: rgba(0,0,0,0.8);
+    position: fixed;
+    bottom: 0rem;
+        .iconfont{
+            font-size: 0.18rem;
+        }
+        span:nth-child(2){
+            font-size: 0.18rem;
+            margin-left: 0.1rem;
+    }
+}
